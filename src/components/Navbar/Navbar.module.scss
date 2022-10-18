@@ -1,0 +1,24 @@
+.navBar {
+  position: sticky;
+  top: 0;
+  background-color: #5daa4d;
+}
+
+.navContainer {
+  display: flex;
+}
+
+.logo {
+  width: 25vw;
+}
+
+.logoImage {
+  max-width: 16vw;
+  max-height: 8vh;
+  padding: 0.25%;
+  padding-left: 3%;
+}
+
+.blankspace {
+  width: 25vw;
+}
