@@ -1,7 +1,9 @@
+@import '../../styles/variables.scss';
+
 .navBar {
   position: sticky;
   top: 0;
-  background-color: #5daa4d;
+  background-color: $green;
 }
 
 .navContainer {
