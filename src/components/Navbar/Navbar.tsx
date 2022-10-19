@@ -9,6 +9,7 @@ const Navbar = () => {
         <div className={style.navContainer}>
           <a className={style.logo} rel="home" href="#">
             <img className={style.logoImage} src={logoPlaceholder} alt="" />
+            <h1 className={style.logoText}>CANTO GOVERNANÇA</h1>
           </a>
           <span className={style.blankspace}></span>
           {/*<ul>

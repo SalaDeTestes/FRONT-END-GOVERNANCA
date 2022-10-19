@@ -11,14 +11,26 @@
 }
 
 .logo {
-  width: 25vw;
+  display: flex;
+  width: 40vw;
+  text-decoration: none;
 }
 
 .logoImage {
   max-width: 16vw;
   max-height: 8vh;
-  padding: 0.25%;
-  padding-left: 3%;
+  margin: 2%;
+  margin-left: 7%;
+}
+
+.logoText {
+  font-family: $montserrat;
+  font-weight: 700;
+  font-size:xx-large;
+  margin-left: 2%;
+  text-align: left;
+  align-self: center;
+  color: $light;
 }
 
 .blankspace {
