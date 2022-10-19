@@ -1,7 +1,7 @@
 import Header from '../components/Header/Header';
 import BigButton from '../components/BigButton/BigButton';
 
-import style from './App.module.scss';
+import style from './Home.module.scss';
 
 function App() {
   return (
