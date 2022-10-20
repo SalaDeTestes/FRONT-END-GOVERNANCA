@@ -3,16 +3,12 @@ import style from './BigButton.module.scss';
 
 interface IButton {
   children?: React.ReactNode
-  type?: "button" | "submit" | "reset" | undefined
+  href?: string
 }
 
-function loadPage(){
-  
-}
-
-const Button = ({children}: IButton) => {
+const Button = ({children, href}: IButton) => {
   return (
-    <button className={style.bigButton} onClick={loadPage}>{children}</button>
+    <a className={style.bigButton} href={href} >{children}</a>
   )
 }
 

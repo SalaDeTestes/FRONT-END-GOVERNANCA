@@ -1,18 +1,16 @@
-import Header from '../../components/Header/Header';
 import BigButton from '../../components/BigButton/BigButton';
 
 import style from './Home.module.scss';
 
-function App() {
+function Home() {
   return (
-    <div>
-      <Header />
+    <>
       <div className={style.bigButtonsContainer}>
-        <BigButton type='button'>Usuários</BigButton>
-        <BigButton type='button'>Hardware</BigButton>
+        <BigButton href='/users/register'>PESSOAS</BigButton>
+        <BigButton href='/hardware/type'>HARDWARE</BigButton>
       </div>
-    </div>
+    </>
   )
 }
 
-export default App;
+export default Home;

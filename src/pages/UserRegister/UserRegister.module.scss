@@ -1,0 +1,84 @@
+@import '../../styles/variables.scss';
+
+.formContainer {
+  max-width: 70em;
+  width: 100%;
+  margin: 4em auto 2em auto;
+  background: #44663550;
+  padding: 3.5em;
+  border-radius: 1em;
+}
+
+.formGroup {
+  margin: 0 auto 2em auto;
+}
+
+.formSubTitle {
+  font-family: $montserrat;
+  font-weight: 500;
+  display: block;
+  font-size: 1.4em;
+  align-self: center;
+  margin-bottom: 4%;
+}
+
+.formLabel {
+  font-family: $opensans;
+  font-weight: 400;
+  display: block;
+  font-size: 1.2em;
+  align-self: center;
+  margin-bottom: 1%;
+}
+
+.formField {
+  width: 100%;
+  border: 1px solid #F0F0F0;
+  border-radius: 0.2em;
+  height: 2.5em;
+  padding: 0.25em 0.75em;
+  font-size: inherit;
+  color: #777;
+}
+
+.buttonAdd {
+  background-color: $lightgreen;
+  border: none;
+  color: white;
+  font-size: 1.8em;
+  padding: 0.3em 0.6em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.formButtons {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3em;
+}
+
+.buttonSave {
+  background-color: $green;
+  max-width: 8em;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 1em;
+  padding: 1em 1em;
+  border-radius: 0.8em;
+  cursor: pointer;
+}
+
+.buttonCancel {
+  background-color: $red;
+  max-width: 8em;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 1em;
+  padding: 1em 1em;
+  border-radius: 0.8em;
+  cursor: pointer;
+}
