@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+
+.sideBar {
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  background-color: $lightergreen;
+  overflow: auto;
+  font-family: $opensans;
+}
+
+.sideBarContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  row-gap: 0.2em;
+}
+
+.containerLi {
+  background-color: $green;
+  width: 100%;
+  border: none;
+  padding: 2%;
+}
+
+.containerTab {
+  background-color: transparent;
+  color: $light;
+  border: none;
+  text-decoration: none;
+  font-family: $opensans;
+  font-size: 1.2em;
+  font-weight: 500;
+  list-style: none;
+  cursor: pointer;
+}
+
+.dropDown {
+  //display: none;
+  background-color: #18252070;
+  margin-top: -0.2em;
+}
+
+.dropDownLi {
+  list-style: none;
+  margin: 1.8% 0 1.8% 5%;
+}
+
+.tabItem {
+  color: $light;
+  border: none;
+  text-decoration: none;
+  font-family: $opensans;
+  font-weight: 500;
+}

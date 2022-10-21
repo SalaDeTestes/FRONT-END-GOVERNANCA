@@ -1,0 +1,10 @@
+@import '../../../styles/variables.scss';
+
+.formLabel {
+  font-family: $opensans;
+  font-weight: 400;
+  display: block;
+  font-size: 1.2em;
+  align-self: center;
+  margin-bottom: 1%;
+}

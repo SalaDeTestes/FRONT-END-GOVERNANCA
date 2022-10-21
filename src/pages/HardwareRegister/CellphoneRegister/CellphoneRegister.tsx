@@ -1,3 +1,5 @@
+import Label from '../../../components/Form/Label/Label';
+import TextArea from '../../../components/Form/TextArea/TextArea';
 import style from './CellphoneRegister.module.scss'
 
 function CellphoneRegister() {
@@ -7,7 +9,7 @@ function CellphoneRegister() {
       <form>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>IMEI:</label>
+          <Label>IMEI:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -17,7 +19,7 @@ function CellphoneRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Marca:</label>
+          <Label>Marca:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -27,7 +29,7 @@ function CellphoneRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Modelo:</label>
+          <Label>Modelo:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -37,7 +39,7 @@ function CellphoneRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Condição:</label>
+          <Label>Condição:</Label>
           <select 
             className={style.formField} 
             name='' 
@@ -51,7 +53,7 @@ function CellphoneRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Nota Fiscal:</label>
+          <Label>Nota Fiscal:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -61,14 +63,10 @@ function CellphoneRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Observações:</label>
-          <textarea 
-            className={style.formTextArea} 
-            placeholder='...'
-            name='' >
-          </textarea>
+          <Label>Observações:</Label>
+          <TextArea />
         </div>
-
+        
         <div className={style.formButtons}>
           <button className={style.buttonSave} type='submit'>Salvar</button>
           <button className={style.buttonCancel} type='button'>Cancelar</button>

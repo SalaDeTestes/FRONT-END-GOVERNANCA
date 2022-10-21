@@ -3,7 +3,7 @@
 .navBar {
   position: sticky;
   top: 0;
-  background-color: $green;
+  background-color: $darkergreen;
 }
 
 .navContainer {
@@ -17,17 +17,16 @@
 }
 
 .logoImage {
-  max-width: 16vw;
-  max-height: 8vh;
-  margin: 2%;
-  margin-left: 7%;
+  max-width: 12vw;
+  max-height: 6vh;
+  margin: 2% 2% 2% 7%;
   align-self: center;
 }
 
 .logoText {
   font-family: $montserrat;
   font-weight: 700;
-  font-size:xx-large;
+  font-size: 1.6em;
   margin-left: 2%;
   text-align: left;
   align-self: center;

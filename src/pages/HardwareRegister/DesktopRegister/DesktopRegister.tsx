@@ -1,3 +1,5 @@
+import Label from '../../../components/Form/Label/Label';
+import TextArea from '../../../components/Form/TextArea/TextArea';
 import style from './DesktopRegister.module.scss'
 
 function DesktopRegister() {
@@ -7,7 +9,7 @@ function DesktopRegister() {
       <form>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Tag:</label>
+          <Label>Tag:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -17,7 +19,7 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Marca:</label>
+          <Label>Marca:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -27,7 +29,7 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Modelo:</label>
+          <Label>Modelo:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -37,7 +39,7 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Endereço MAC:</label>
+          <Label>Endereço MAC:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -47,7 +49,7 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Processador:</label>
+          <Label>Processador:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -57,7 +59,7 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Memória RAM:</label>
+          <Label>Memória RAM:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -67,7 +69,7 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Armazenamento:</label>
+          <Label>Armazenamento:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -77,7 +79,7 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Condição:</label>
+          <Label>Condição:</Label>
           <select 
             className={style.formField} 
             name='' 
@@ -91,7 +93,7 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Nota Fiscal:</label>
+          <Label>Nota Fiscal:</Label>
           <input 
             className={style.formField} 
             type='text' 
@@ -101,12 +103,8 @@ function DesktopRegister() {
         </div>
 
         <div className={style.formGroup}>
-          <label className={style.formLabel}>Observações:</label>
-          <textarea 
-            className={style.formTextArea} 
-            placeholder='...'
-            name='' >
-          </textarea>
+          <Label>Observações:</Label>
+          <TextArea />
         </div>
 
         <div className={style.formButtons}>

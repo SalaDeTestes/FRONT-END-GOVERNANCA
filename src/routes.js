@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import UserRegister from './pages/UserRegister/UserRegister';
-import HardwareType from './pages/HardwareType/HardwareType';
+import NotebookList from './pages/HardwareList/NotebookList/NotebookList';
 import NotebookRegister from './pages/HardwareRegister/NotebookRegister/NotebookRegister';
 import DesktopRegister from './pages/HardwareRegister/DesktopRegister/DesktopRegister';
 import CellphoneRegister from './pages/HardwareRegister/CellphoneRegister/CellphoneRegister';
@@ -15,8 +15,8 @@ function AppRouter() {
         <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/users/register' element={<UserRegister />} />
-        <Route path='/hardware/type' element={<HardwareType />} />
+        <Route path='/persons/register' element={<UserRegister />} />
+        <Route path='/hardware/notebook/list' element={<NotebookList />} />
         <Route path='/hardware/notebook/register' element={<NotebookRegister />} />
         <Route path='/hardware/desktop/register' element={<DesktopRegister />} />
         <Route path='/hardware/cellphone/register' element={<CellphoneRegister />} />
