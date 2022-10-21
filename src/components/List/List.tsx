@@ -2,7 +2,7 @@ import style from './List.module.scss'
 
 function List() {
   const items = [{
-    nome: 'teste'
+    nome: ''
   }]
   
   return (
