@@ -2,9 +2,9 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import List from '../../../components/List/List'
 import SideBar from '../../../components/SideBar/SideBar';
-import style from './NotebookList.module.scss'
+import style from './ChipList.module.scss'
 
-function NotebookList() {
+function ChipList() {
   useEffect(() => {
     axios.get('http://192.168.228.4:8080/recursos')
       .then(response => {
@@ -23,4 +23,4 @@ function NotebookList() {
   )
 }
 
-export default NotebookList;
+export default ChipList;

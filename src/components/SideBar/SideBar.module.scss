@@ -4,7 +4,7 @@
   width: 15%;
   height: 100%;
   position: fixed;
-  background-color: $lightergreen;
+  background-color: $darkgreen;
   overflow: auto;
   font-family: $opensans;
 }
@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 0;
-  row-gap: 0.2em;
+  row-gap: 0.18em;
 }
 
 .containerLi {
@@ -21,6 +21,7 @@
   width: 100%;
   border: none;
   padding: 2%;
+  box-shadow: 0 0.2em 0.4em 0 rgba(0, 0, 0, 0.2);
 }
 
 .containerTab {
@@ -37,13 +38,12 @@
 
 .dropDown {
   //display: none;
-  background-color: #18252070;
   margin-top: -0.2em;
 }
 
 .dropDownLi {
   list-style: none;
-  margin: 1.8% 0 1.8% 5%;
+  margin: 3% 0 3% 8%;
 }
 
 .tabItem {
