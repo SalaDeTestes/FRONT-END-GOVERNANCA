@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.listComponent {
+  margin-left: 15%;
+}
+
+.headerContainer {
+  max-width: 60em;
+  width: 100%;
+  margin: 2em auto 0.5em auto;
+}
+
+.listTitle {
+  font-family: $montserrat;
+}

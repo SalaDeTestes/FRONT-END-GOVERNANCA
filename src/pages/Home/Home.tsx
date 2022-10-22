@@ -1,4 +1,3 @@
-import BigButton from '../../components/BigButton/BigButton';
 import SideBar from '../../components/SideBar/SideBar';
 
 import style from './Home.module.scss';

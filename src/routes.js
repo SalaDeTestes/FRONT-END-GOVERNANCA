@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
+import SideBar from './components/SideBar/SideBar';
 
 import Home from './pages/Home/Home';
 
@@ -23,9 +24,10 @@ function AppRouter() {
   return (
     <Router>
         <Navbar />
+        <SideBar />
       <Routes>
         <Route path='/' element={<Home />} />
-
+        
         <Route path='/user/list' element={<UserList />} />
         <Route path='/user/register' element={<UserRegister />} />
 

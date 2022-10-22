@@ -1,6 +1,6 @@
 interface IRecursos {
-  cep: string 
-  localidade: string 
+  id: number
+  tag: string 
 }
 
 export default IRecursos;

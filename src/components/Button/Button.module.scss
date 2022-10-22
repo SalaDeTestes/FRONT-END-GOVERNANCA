@@ -1,18 +1,18 @@
 @import '../../styles/variables.scss';
 
-.bigButton {
-  max-width: 13em;
+.button {
+  max-width: 8em;
   width: 100%;
   background-color: $darkgreen;
   border: none;
   color: white;
-  padding: 4.6em 3em;
-  border-radius: 1em;
-  margin: 1em 0;
+  padding: 0.6em 0.1em;
+  border-radius: 0.2em;
+  margin: 0;
   cursor: pointer;
   font-family: $montserrat;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 1em;
   text-align: center;
   text-decoration: none;
 }

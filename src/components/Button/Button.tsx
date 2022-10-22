@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './BigButton.module.scss';
+import style from './Button.module.scss';
 
 interface IButton {
   children?: React.ReactNode
@@ -8,7 +8,7 @@ interface IButton {
 
 function Button({children, href}: IButton) {
   return (
-    <a className={style.bigButton} href={href} >{children}</a>
+    <a className={style.button} href={href} >{children}</a>
   )
 }
 

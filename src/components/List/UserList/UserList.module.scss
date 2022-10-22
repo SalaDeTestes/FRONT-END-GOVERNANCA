@@ -1,0 +1,34 @@
+@import '../../../styles/variables.scss';
+
+.listContainer {
+  max-width: 60em;
+  width: 100%;
+  height: 70vh;
+  margin: 0.5em auto 0.5em auto;
+  background: #6BB37450;
+  padding: 1em;
+  border-radius: 0.2em;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+  margin: 0.5em 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  background-color: #F1F1F180;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.listText {
+  list-style: none;
+  font-family: $opensans;
+  font-weight: 500;
+  border: none;
+  padding: 1.5%;
+}
