@@ -1,5 +1,5 @@
-interface IPessoas {
-  id: number
+interface IPessoa {
+  id: number | undefined
   nome: string 
   cargo: string
   telefone: string
@@ -11,4 +11,4 @@ interface IPessoas {
   senha: string
 }
 
-export default IPessoas;
+export default IPessoa;

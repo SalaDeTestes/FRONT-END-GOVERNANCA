@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-import IRecursos from '../../../types/Recursos/Recursos'
+import IRecurso from '../../../types/Recurso/Recurso'
 import style from './HardwareList.module.scss'
 
 interface IList {
@@ -9,7 +9,7 @@ interface IList {
 
 function List({type}: IList) {
   
-  const [recursos, setRecursos] = useState<IRecursos[]>([])
+  const [recursos, setRecursos] = useState<IRecurso[]>([])
 
   useEffect(() => {
     axios.get('http://192.168.228.4:8080/recursos')

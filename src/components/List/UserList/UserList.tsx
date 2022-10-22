@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-import IPessoas from '../../../types/Pessoas/Pessoas'
+import IPessoas from '../../../types/Pessoa/Pessoa'
 import Button from '../../Button/Button'
 import style from './UserList.module.scss'
 

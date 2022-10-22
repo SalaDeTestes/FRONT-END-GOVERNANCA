@@ -13,7 +13,7 @@ function SearchBar() {
       />
       <div className={style.buttonsContainer}>
         <Button>Visualizar</Button>
-        <Button>Editar</Button>
+        <Button href='./register'>Adicionar</Button>
       </div>
     </div>
   )
